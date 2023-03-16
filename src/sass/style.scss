@@ -1,4 +1,10 @@
+@import 'libs/animate.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
 @import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -11,6 +17,8 @@
 @import 'blocks/feed';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
+
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
